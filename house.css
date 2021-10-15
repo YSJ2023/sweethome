@@ -1,21 +1,30 @@
+body {
+    min-height: 100vh;
+    max-width: 400px;
+    margin: 0 auto;
+}
 #grid{
-  border: 1px gray solid;
   display:grid;
   align-items: stretch;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(200px, auto);
   }
-  .center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 10%;
-  margin-bottom: 10%;
-  width: 50%;
-}
-.overlay
-{
+
+.center {
+    top:10%;
+    left:40%;
+    width: 80%;
+  }
+.effect {
 position: absolute;
+left:10%;
+width: 80%;
+}
+.imgcenter {
+  position:absolute;
+  top:30%;
+  left:20%;
+  width:60%;
 }
 p{
   text-align:center
